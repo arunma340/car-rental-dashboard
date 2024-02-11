@@ -1,0 +1,36 @@
+.sell-car{
+  margin-top: 100px;
+  padding: 0px 30px;
+  padding-bottom: 50px;
+}
+
+
+
+.sell__car{
+  padding: 20px;
+  background: var(--primary-color);
+  border-radius: 5px;
+}
+
+.sell__car-img h2{
+  color: var(--heading-color);
+}
+
+.sell__car-top{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 2rem;
+
+}
+
+.tracking__history{
+  padding: 20px;
+  border-radius: 5px;
+  background: var(--primary-color);
+  height: 300px;
+}
+
+.tracking__history h3{
+  color:var(--heading-color);
+  font-weight:400;
+}
